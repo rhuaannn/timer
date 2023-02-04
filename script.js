@@ -32,6 +32,7 @@ const clearTimer = () => {
 
 start.addEventListener("click", function () {
   play();
+  clearInterval(timePlay)
   playTimer();
   
   console.log("clickedStart");

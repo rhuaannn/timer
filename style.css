@@ -10,6 +10,15 @@ body{
   color: white;
   text-align: center;
   padding-top: 2.5em;
+  
+}
+.title{
+  border: 0px;
+  display: flex;
+  justify-content: center;
+  border: 1px solid transparent;
+  margin-left: 10.5em;
+  margin-right: 10.5em;
 }
 .title:hover{
   font-family: 'Times New Roman', Times, serif;
@@ -61,4 +70,25 @@ body{
 }
 .btnClear:hover{
   color: gray;
+}
+
+@media(max-width:376px){
+  .title{
+    display: flex;
+    font-size: 50px;
+    margin: 0 auto;
+    text-align: center;;
+}}
+@media(max-width:415px){
+  .title{
+    display: flex;
+    font-size: 35px;
+    margin: 0 auto;
+  }
+}
+@media(max-width:820px){
+  .title{
+    display: flex;
+    margin: 0 auto;
+  }
 }
