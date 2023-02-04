@@ -46,5 +46,6 @@ clear.addEventListener("click", function () {
   clearTimer();
   clearInterval(timePlay)
   timer.innerText = '00:00:00 '
+  segundos = 0;
   console.log("clikedTimer");
 });
