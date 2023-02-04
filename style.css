@@ -1,0 +1,64 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: rgb(28, 121, 202);
+}
+.container{
+  color: white;
+  text-align: center;
+  padding-top: 2.5em;
+}
+.title:hover{
+  font-family: 'Times New Roman', Times, serif;
+  color: gray;
+}
+.main{
+  padding-top: 1.5em;
+  font-size: 25px;
+}
+.btn{
+  display: flex;
+  justify-content: center;
+  gap: 15px;
+  padding-top: 3em;
+ 
+}
+.btnStart{
+  width: 55px;
+  height: 25px;
+  border-radius: 5px;
+  border: 2px solid transparent;
+  cursor: pointer;
+  color: beige;
+  background-color: rgb(62, 4, 73);
+}
+.btnPause{
+  width: 55px;
+  height: 25px;
+  border-radius: 5px;
+  border: 2px solid transparent;
+  cursor: pointer;
+  color: beige;
+  background-color: rgb(62, 4, 73);
+}
+.btnClear{
+  width: 55px;
+  height: 25px;
+  border-radius: 5px;
+  border: 2px solid transparent;
+  cursor: pointer;
+  color: beige;
+  background-color: rgb(62, 4, 73);
+}
+.btnStart:hover{
+  color: gray;
+}
+.btnPause:hover{
+  color: gray;
+}
+.btnClear:hover{
+  color: gray;
+}
